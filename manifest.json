@@ -23,10 +23,5 @@
   "homepage_url": "https://github.com/Arthelon/cisDayCycles/",
   "chrome_url_overrides": {
     "newtab": "override.html"
-  },
-  "applications": {
-    "gecko": {
-      "id": "cis-day-cycles@arthelon.addons.mozilla.org"
-    }
   }
 }
