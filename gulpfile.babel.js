@@ -27,7 +27,7 @@ var manifest = {
   firefox: {
     applications: {
       gecko: {
-        id: "my-app-id@mozilla.org"
+        id: "cis-day-cycles@arthelon.addons.mozilla.org"
       }
     }
   }
