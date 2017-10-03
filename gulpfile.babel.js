@@ -67,15 +67,6 @@ gulp.task("styles", () => {
   return gulp
     .src("src/styles/**/*.css")
     .pipe($.plumber())
-    .pipe(
-      $.sass
-        .sync({
-          outputStyle: "expanded",
-          precision: 10,
-          includePaths: ["."]
-        })
-        .on("error", $.sass.logError)
-    )
     .pipe(gulp.dest(`build/${target}/styles`));
 });
 
