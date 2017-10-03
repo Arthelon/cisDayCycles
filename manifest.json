@@ -19,6 +19,8 @@
     },
     "default_title": "CIS Day Cycles"
   },
+  "author": "Daniel Hsing",
+  "home_page": "https://github.com/Arthelon/cisDayCycles/",
   "chrome_url_overrides": {
     "newtab": "override.html"
   }
